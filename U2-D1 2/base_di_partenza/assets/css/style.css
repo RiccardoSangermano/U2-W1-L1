@@ -178,3 +178,140 @@ footer {
 footer a {
     color: fuchsia;
 }
+@media screen and (min-width: 768px){
+   
+    ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    
+    .orizzontale {
+        display: flex; 
+        justify-content: center;
+    }
+
+    .orizzontale li {
+        margin-right: 10px; 
+    }
+
+    
+    .verticale li {
+        margin-bottom: 10px; 
+    }
+    table {
+        
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+    h2 {
+        line-height: bold;
+        
+    }
+    ol{
+        display: block;
+        list-style-type: decimal;
+    }
+
+    footer {
+        height: 200px;
+        text-align: center;
+    }
+    address{
+        margin-top: 50px;
+    }
+}
+
+@media screen and (min-width: 1149px){
+  
+
+        
+        header {
+            display: flex;
+            justify-content: space-between; 
+            align-items: center; 
+            padding: 20px;
+             color: white;
+        }
+
+        
+        header > div {
+            display: flex; 
+            align-items: center; 
+        }
+
+        
+        header img {
+            margin-right: 10px; 
+        }
+
+        
+        header p {
+            font-size: 20px;
+            margin: 0; 
+        }
+
+        
+       
+
+        .orizzontale {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex; 
+        }
+
+       
+        .orizzontale li {
+            margin-left: 10px; 
+        }
+
+      
+        .orizzontale a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        h2{
+            font-weight: bold;
+        }
+        .contenitore {
+            display: flex; 
+            justify-content: space-between; 
+            align-items: flex-start; 
+            gap: 20px; 
+            margin: 20px; 
+        }
+        iframe{
+           width: 100%; 
+           height: 200px;
+        }
+        section{
+            width:100%;
+            height: 200px;
+        }
+
+        #container {
+            display: flex;
+            flex-wrap: wrap; 
+            gap: 20px; 
+            padding: 20px;
+            height: 20%;
+            background-color: white;
+            border: white;
+            
+        }
+        #container > div {
+            flex: 1 1 0%;            
+            margin: 0;               
+            height: 100%;
+        
+
+        
+        
+    
+
+
+
+}
